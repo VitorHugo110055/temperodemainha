@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempero de Mainha</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #c97b37;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #e6b07c;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #5a2d0c;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #c97b37;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative; /* Mudado de fixed para evitar sobreposição em telas pequenas */
+            bottom: 0;
+            width: 100%;
+        }
+
+        .menu-item {
+            margin-bottom: 30px;
+        }
+
+        .menu-item h3 {
+            margin: 10px 0;
+        }
+
+        .menu-item img {
+            width: 100%;
+            max-width: 700px;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            header, section, footer {
+                padding: 15px;
+                text-align: center;
+            }
+
+            .menu-item img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tempero de Mainha</h1>
+        <p>O melhor da culinária nordestina para você!</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#menu">Cardápio</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>No Tempero de Mainha, trazemos a autêntica comida nordestina direto para sua mesa. 
+        Com ingredientes frescos e receitas tradicionais, oferecemos uma experiência gastronômica inesquecível.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Cardápio</h2>
+
+        <div class="menu-item">
+            <h3>Baião de Dois</h3>
+            <p>Arroz, feijão verde, carne seca desfiada e queijo coalho.</p>
+            <img src="P.jpg" alt="Baião de Dois">
+        </div>
+
+        <div class="menu-item">
+            <h3>Carne de Sol com Macaxeira</h3>
+            <p>Carne de sol grelhada acompanhada de macaxeira frita e manteiga de garrafa.</p>
+            <img src="a.jpg" alt="Carne de Sol com Macaxeira">
+        </div>
+
+        <div class="menu-item">
+            <h3>Moqueca de Peixe</h3>
+            <p>Peixe cozido com leite de coco, dendê, pimentões e coentro.</p>
+            <img src="bob.jpg" alt="Moqueca de Peixe">
+        </div>
+
+        <div class="menu-item">
+            <
